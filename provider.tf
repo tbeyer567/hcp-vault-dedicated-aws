@@ -5,7 +5,7 @@ terraform {
       version = ">= 5.55.0"
     }
     hcp = {
-      source = "hashicorp/hcp"
+      source  = "hashicorp/hcp"
       version = ">= 0.93.0"
     }
   }
