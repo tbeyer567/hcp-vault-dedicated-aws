@@ -32,3 +32,9 @@ variable "peering" {
   type        = bool
   default     = true
 }
+
+variable "tgw_id" {
+  description = "EC2 transit gateway ID."
+  type        = string
+  default     = null
+}
